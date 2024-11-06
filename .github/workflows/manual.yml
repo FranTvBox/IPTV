@@ -55,5 +55,5 @@ jobs:
              # 提交更改
           git commit -m "Add new file"
           # 推送更改
-          git push --force
+          git push https://${{ secrets.GITHUB_TOKEN }}@github.com/FranTvBox/IPTV.git
           
